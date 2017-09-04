@@ -8,16 +8,16 @@ var data = require("../lib/server/data.js");
 
       var query = {
         Sort: 0,
-        Facilities: ["pool"]  
+        Facilities: ["gym"]  
       }
       
       var expected = {
         items : [
           {
-            id: 6,
-            Name: "hotel6",
-            StarRating: 3,
-            Facilities : ["pool"]
+            id: 5,
+            Name: "hotel5",
+            StarRating: 5,
+            Facilities : ["gym"]
           }
         ]
       };
