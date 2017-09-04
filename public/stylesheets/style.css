@@ -1,0 +1,85 @@
+html, body {
+  margin:0;
+  height:100%;
+  min-height:100%;
+}
+
+body {
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica Neue;
+  font-stretch: expanded;
+}
+
+.header {
+  color: #fff;
+  background-color: #411485;  
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; 
+  flex: 0 0 auto;
+  /* flex: 1 0 10%;*/
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+}
+
+.sort {
+  margin-left: 20px;
+}
+
+.hotel-grid-container {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+  position: relative;
+  overflow-y: auto;
+}
+
+.hotel-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  flex: 1 1 auto;
+  position: relative;
+  overflow-y: auto;
+}
+
+.hotel-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  background-color: #f0f0f0;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.hotel-grid-item h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sort :hover {
+  cursor:pointer;
+}
+.signup :hover {
+  cursor:pointer;
+}
+
+.signup  {
+  display:flex;
+  justify-content: space-around;
+}
