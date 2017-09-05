@@ -75,11 +75,11 @@ body {
 .sort :hover {
   cursor:pointer;
 }
-.signup :hover {
+.facilities :hover {
   cursor:pointer;
 }
 
-.signup  {
+.facilities {
   display:flex;
   justify-content: space-around;
 }

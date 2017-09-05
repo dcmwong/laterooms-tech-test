@@ -1,12 +1,12 @@
-import chai from 'chai';
+import chai from "chai";
 chai.should();
-var model = require('../../lib/client/hotels/model.js');
-import R from 'ramda';
-import React from 'react';
-import SearchInstructions from '../../lib/client/hotels/SearchInstructions.js';
-import sinon from 'sinon';
-import Task from 'data.task';
-import Either from 'data.either';
+var model = require("../../lib/client/hotels/model.js");
+import R from "ramda";
+import React from "react";
+import SearchInstructions from "../../lib/client/hotels/SearchInstructions.js";
+import sinon from "sinon";
+import Task from "data.task";
+import Either from "data.either";
 
 describe("Given I have a one filter and sort ascending", function() {
   it("should create a query with one facility and sort ascending", function() {
