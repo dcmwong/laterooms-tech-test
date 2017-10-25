@@ -10,3 +10,10 @@ A solution to the laterooms front end technical test.
 ## Running tests
 
 ```npm test```
+
+
+<details open><summary>Functional JS</summary>
+  
+  1.  Some other text
+  2.  And another piece of text
+</details>
